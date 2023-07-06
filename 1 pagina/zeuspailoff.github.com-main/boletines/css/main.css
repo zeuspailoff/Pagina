@@ -1,0 +1,115 @@
+/* Color Theme Swatches in Hex 
+.RockON!-1-hex { color: #010221; }
+.RockON!-2-hex { color: #0A7373; }
+.RockON!-3-hex { color: #B7BF99; }
+.RockON!-4-hex { color: #EDAA25; }
+.RockON!-5-hex { color: #C43302; }
+*/
+
+html{
+   font-family: 'Rubik', sans-serif;
+}
+
+.container{
+   background: #544a7d;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   justify-content: center
+
+}
+ 
+
+.content{
+   max-width: 900px;
+   max-height: 500px;
+   width: 100%;
+   height: 100%;
+   background-color: white;
+   box-shadow: 0 10px 20px #544a7d;
+   border-radius: 15px;
+   position: relative;
+   padding: 1.5em;
+}
+.actions{
+   position: absolute;
+   top: 5px;
+   right:5px;
+   padding: 0.5em;
+   border-radius: 100%;
+   box-shadow: 0 5px 10px #544a7d;
+   color: white;
+   background-color: #544a7d;
+   cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.tittle{
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.paragraph{
+   line-height: 1.4em;
+}
+
+.table{
+   width: 100%;
+
+}
+
+.table td, .table th{
+   padding: 1em;
+   text-align: left;
+
+}
+
+.table tr:nth-child(even){background-color: #B7BF99 ;
+}
+
+.icon-star-full{
+   color:#F2E307;
+}
+.icon-star-half{
+   color: #F2E307;
+}
+.icon-star-empty{
+   color: #F2E307;
+}
+
+h2{
+   border-bottom: 2px solid #544a7d;
+   padding-bottom: 5px;
+}
+
+.position{
+   background-color: #544a7d;
+   color: white;
+   padding: 8px;
+   border-radius: 3px;
+   margin-right: 00.5em;
+}
+.animate__bounce {
+   -webkit-animation-name: bounce;
+   animation-name: bounce;
+   -webkit-transform-origin: center bottom;
+   transform-origin: center bottom;
+}
+
+address{
+   font-weight: bold;
+   color: #544a7d;
+   font-size: 1.2em;
+}
+
+.image{
+   float: left;
+   margin-right: 1em;
+   
+}
